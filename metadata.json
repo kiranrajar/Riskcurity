@@ -1,0 +1,6 @@
+{
+  "name": "Riskcurity",
+  "description": "Enterprise-grade cybersecurity consulting, penetration testing, compliance audits, and 24/7 SOC monitoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

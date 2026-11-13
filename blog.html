@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cybersecurity Insights &amp; Guides — Riskcurity Blog</title>
+  <meta name="description" content="Practical cybersecurity guides for CTOs, IT managers, and compliance leads. Learn about penetration test costs, vulnerability scanning vs pen testing, SOC 2 preparation, and ISO 27001 checklists.">
+  <link rel="canonical" href="https://www.riskcurity.com/blog.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       SITE HEADER
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="/index.html" class="nav-brand">
+        <img src="/favicon-transparent.png" alt="Riskcurity Shield Logo" class="nav-brand-logo">
+        <span>RISKCURITY</span>
+      </a>
+
+      <nav class="nav-list" id="navList">
+        <a href="/index.html" class="nav-link">Home</a>
+        <a href="/services/penetration-testing.html" class="nav-link">Penetration Testing</a>
+        <a href="/services/security-audits.html" class="nav-link">Security Audits</a>
+        <a href="/services/soc-monitoring.html" class="nav-link">24/7 SOC</a>
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/blog.html" class="nav-link active">Blog &amp; Insights</a>
+        <a href="/contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="/contact.html" class="btn btn-primary">Book Assessment</a>
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="/index.html" class="mobile-nav-link">Home</a>
+    <a href="/services/penetration-testing.html" class="mobile-nav-link">Penetration Testing (VAPT)</a>
+    <a href="/services/security-audits.html" class="mobile-nav-link">Security Audits &amp; Compliance</a>
+    <a href="/services/soc-monitoring.html" class="mobile-nav-link">24/7 SOC Monitoring</a>
+    <a href="/about.html" class="mobile-nav-link">About Riskcurity</a>
+    <a href="/blog.html" class="mobile-nav-link" style="color:var(--cyan-accent);">Cybersecurity Insights &amp; Blog</a>
+    <a href="/contact.html" class="mobile-nav-link">Contact Us</a>
+    <div style="margin-top:1.5rem;">
+      <a href="/contact.html" class="btn btn-primary" style="width:100%;justify-content:center;">Book Security Assessment →</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         PAGE HERO
+         ========================================================================== -->
+    <section class="section section--midnight blog-page-hero" style="padding-top:5rem;padding-bottom:5rem;border-bottom:1px solid var(--navy-border);">
+      <div class="container" style="max-width:960px;">
+        <span class="eyebrow" style="color:var(--cyan-accent);">Engineering &amp; Compliance Knowledge Base</span>
+        <h1 class="section-title" style="font-size:clamp(2.5rem, 4vw, 3.5rem);color:#FFFFFF;margin-bottom:1.5rem;">
+          Cybersecurity Insights &amp; Buyer Guides
+        </h1>
+        <p class="section-lead" style="color:var(--text-light-secondary);font-size:1.25rem;line-height:1.7;">
+          In-depth technical guides answering the most critical security, audit, and compliance questions B2B SaaS buyers and engineering leaders search for.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         EDITORIAL ARTICLES GRID (Zero-Image High-Typography Design)
+         ========================================================================== -->
+    <section class="section section--light">
+      <div class="container">
+        <div class="blog-tools" role="search">
+          <label class="blog-search-label" for="blogSearch">Search insights</label>
+          <input id="blogSearch" class="blog-search-input" type="search"
+                 placeholder="Search topics, frameworks, or services..."
+                 autocomplete="off" aria-controls="blogArticles">
+          <span class="blog-result-count" id="blogResultCount" aria-live="polite">8 articles</span>
+        </div>
+        <div class="blog-grid" id="blogArticles">
+
+          <!-- Article 1 -->
+          <article class="blog-card" data-article-id="pentest-cost" role="button" tabindex="0">
+            <div class="blog-meta-unboxed">
+              <span>Penetration Testing</span>
+              <span aria-hidden="true">·</span>
+              <span>7 min read</span>
+            </div>
+            <h2 class="blog-title">How Much Does a Penetration Test Cost in 2026?</h2>
+            <p class="blog-snippet">
+              Understand real penetration testing pricing models, scoped factors (web apps vs APIs vs mobile), and how to avoid hidden consultant billing traps.
+            </p>
+            <div class="blog-footer">
+              <span>Aug 2026</span>
+              <span style="font-weight:600;color:var(--blue-primary);display:inline-flex;align-items:center;gap:0.25rem;">
+                Read Full Guide →
+              </span>
+            </div>
+          </article>
+
+          <!-- Article 2 -->
+          <article class="blog-card" data-article-id="vuln-vs-pentest" role="button" tabindex="0">
+            <div class="blog-meta-unboxed">
+              <span>Offensive Security</span>
+              <span aria-hidden="true">·</span>
+              <span>5 min read</span>
+            </div>
+            <h2 class="blog-title">Vulnerability Scanning vs. Penetration Testing: What’s the Difference?</h2>
+            <p class="blog-snippet">
+              Discover why automated scanners miss complex logic vulnerabilities and when your business needs a manual OSCP-led penetration test.
+            </p>
+            <div class="blog-footer">
+              <span>Aug 2026</span>
+              <span style="font-weight:600;color:var(--blue-primary);display:inline-flex;align-items:center;gap:0.25rem;">
+                Read Full Guide →
+              </span>
+            </div>
+          </article>
+
+          <!-- Article 3 -->
+          <article class="blog-card" data-article-id="soc2-type1-vs-type2" role="button" tabindex="0">
+            <div class="blog-meta-unboxed">
+              <span>SOC 2 Compliance</span>
+              <span aria-hidden="true">·</span>
+              <span>8 min read</span>
+            </div>
+            <h2 class="blog-title">SOC 2 Type I vs. Type II: Which Does Your Startup Need First?</h2>
+            <p class="blog-snippet">
+              A complete breakdown of point-in-time (Type I) vs 6-month observation (Type II) audits, timelines, and audit evidence preparation.
+            </p>
+            <div class="blog-footer">
+              <span>Aug 2026</span>
+              <span style="font-weight:600;color:var(--blue-primary);display:inline-flex;align-items:center;gap:0.25rem;">
+                Read Full Guide →
+              </span>
+            </div>
+          </article>
+
+          <!-- Article 4 -->
+          <article class="blog-card" data-article-id="iso27001-checklist" role="button" tabindex="0">
+            <div class="blog-meta-unboxed">
+              <span>ISO 27001</span>
+              <span aria-hidden="true">·</span>
+              <span>10 min read</span>
+            </div>
+            <h2 class="blog-title">ISO 27001 Certification Checklist for B2B SaaS Companies</h2>
+            <p class="blog-snippet">
+              Step-by-step guidance on creating an ISMS, defining Annex A controls, and passing Stage 1 and Stage 2 ISO audits effortlessly.
+            </p>
+            <div class="blog-footer">
+              <span>Aug 2026</span>
+              <span style="font-weight:600;color:var(--blue-primary);display:inline-flex;align-items:center;gap:0.25rem;">
+                Read Full Guide →
+              </span>
+            </div>
+          </article>
+
+          <!-- Article 5 -->
+          <article class="blog-card" data-article-id="pci-dss-v4" role="button" tabindex="0">
+            <div class="blog-meta-unboxed">
+              <span>PCI DSS v4.0</span>
+              <span aria-hidden="true">·</span>
+              <span>6 min read</span>
+            </div>
+            <h2 class="blog-title">PCI DSS v4.0 Transition Guide: Key Changes You Need to Know</h2>
+            <p class="blog-snippet">
+              What the mandatory PCI DSS v4.0 update means for payment gateways, cardholder data environments (CDE), and multi-factor authentication rules.
+            </p>
+            <div class="blog-footer">
+              <span>Aug 2026</span>
+              <span style="font-weight:600;color:var(--blue-primary);display:inline-flex;align-items:center;gap:0.25rem;">
+                Read Full Guide →
+              </span>
+            </div>
+          </article>
+
+          <!-- Article 6 -->
+          <article class="blog-card" data-article-id="siem-alert-fatigue" role="button" tabindex="0">
+            <div class="blog-meta-unboxed">
+              <span>SOC &amp; SIEM</span>
+              <span aria-hidden="true">·</span>
+              <span>6 min read</span>
+            </div>
+            <h2 class="blog-title">How to Reduce SIEM Alert Fatigue by Up to 70%</h2>
+            <p class="blog-snippet">
+              Learn how custom detection engineering and alert tuning eliminate false alarms so real security incidents get immediate analyst focus.
+            </p>
+            <div class="blog-footer">
+              <span>Aug 2026</span>
+              <span style="font-weight:600;color:var(--blue-primary);display:inline-flex;align-items:center;gap:0.25rem;">
+                Read Full Guide →
+              </span>
+            </div>
+          </article>
+
+          <!-- Article 7 -->
+          <article class="blog-card" data-article-id="ai-governance-iso42001" role="button" tabindex="0">
+            <div class="blog-meta-unboxed">
+              <span>AI Safety</span>
+              <span aria-hidden="true">·</span>
+              <span>9 min read</span>
+            </div>
+            <h2 class="blog-title">AI Governance &amp; ISO 42001: Building Trust in AI Systems</h2>
+            <p class="blog-snippet">
+              How to audit LLM applications, prevent prompt injection attacks, and enforce human-in-the-loop guardrails for responsible AI deployment.
+            </p>
+            <div class="blog-footer">
+              <span>Aug 2026</span>
+              <span style="font-weight:600;color:var(--blue-primary);display:inline-flex;align-items:center;gap:0.25rem;">
+                Read Full Guide →
+              </span>
+            </div>
+          </article>
+
+          <!-- Article 8 -->
+          <article class="blog-card" data-article-id="vendor-security-questionnaires" role="button" tabindex="0">
+            <div class="blog-meta-unboxed">
+              <span>Vendor Trust</span>
+              <span aria-hidden="true">·</span>
+              <span>5 min read</span>
+            </div>
+            <h2 class="blog-title">Vendor Security Questionnaires: How to Pass Enterprise Reviews</h2>
+            <p class="blog-snippet">
+              How to answer SIG, VSA, and enterprise procurement questionnaires quickly without bottlenecking your sales team.
+            </p>
+            <div class="blog-footer">
+              <span>Aug 2026</span>
+              <span style="font-weight:600;color:var(--blue-primary);display:inline-flex;align-items:center;gap:0.25rem;">
+                Read Full Guide →
+              </span>
+            </div>
+          </article>
+
+        </div>
+        <p class="blog-empty-state" id="blogEmptyState" hidden>No articles match that search. Try another topic.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       ARTICLE READER MODAL
+       ========================================================================== -->
+  <div id="blogReaderModal" class="modal-overlay">
+    <div class="modal-content" style="max-width:760px;max-height:85vh;overflow-y:auto;">
+      <button id="blogReaderClose" class="modal-close" aria-label="Close reader">✕</button>
+      <div id="blogReaderContent"></div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="/favicon-transparent.png" alt="Riskcurity Logo" class="footer-brand-logo">
+            <span>RISKCURITY</span>
+          </div>
+          <p class="footer-desc">
+            We test your systems, fix the issues, get you certified, and watch your infrastructure around the clock — so you can sell to enterprise clients with confidence.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Services</div>
+          <ul class="footer-links">
+            <li><a href="/services/penetration-testing.html" class="footer-link">Penetration Testing</a></li>
+            <li><a href="/services/security-audits.html" class="footer-link">Security Audits &amp; Compliance</a></li>
+            <li><a href="/services/soc-monitoring.html" class="footer-link">24/7 SOC Monitoring</a></li>
+            <li><a href="/index.html#services" class="footer-link">SIEM &amp; Alert Engineering</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Company</div>
+          <ul class="footer-links">
+            <li><a href="/index.html" class="footer-link">Home</a></li>
+            <li><a href="/about.html" class="footer-link">About Riskcurity</a></li>
+            <li><a href="/blog.html" class="footer-link">Blog &amp; Insights</a></li>
+            <li><a href="/contact.html" class="footer-link">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Riskcurity. All rights reserved.</span>
+        <span class="mono">ISO 27001 · SOC 2 · PCI DSS v4.0 · OSCP Certified</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/script.js"></script>
+</body>
+</html>
